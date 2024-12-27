@@ -1,0 +1,21 @@
+	-- 소방용수시설 위치 데이터 --	|소방청_소방용수시설_utf8.csv
+https://www.data.go.kr/data/15034538/standard.do#layer_data_infomation
+
+	-- 감시초소 웹 크롤링 주소 --	|초소이름.csv			|구글지도API활용
+	--   산림지형 5차 임상도   --	|fin_[숫자].geojsonl
+https://map.forest.go.kr/forest/
+
+	-- 무인 감시 카메라(남부청) --	|cctv_geo.csv			|구글지도API활용
+https://www.forest.go.kr/kfsweb/cop/bbs/selectBoardArticle.do;jsessionid=EW7fXPLAn7VoI5gVhpGzg9xJ0DyBfb85LS3C1VUFcr0JPdI2vOLBm8Y06XKD4lUd.frswas02_servlet_engine5?nttId=3184209&bbsId=BBSMSTR_1069&pageIndex=1&pageUnit=10&searchtitle=title&searchcont=&searchkey=&searchwriter=&searchdept=&searchWrd=%eb%ac%b4%ec%9d%b8+%ec%b9%b4%eb%a9%94%eb%9d%bc&ctgryLrcls=&ctgryMdcls=&ctgrySmcls=&ntcStartDt=&ntcEndDt=&orgId=&mn=NKFS_06_09_01&component=
+
+	-- 무인 감시 카메라(동부청) --	|cctv_geo.csv			|구글지도API활용
+https://www.forest.go.kr/kfsweb/cop/bbs/selectBoardArticle.do?nttId=3088865&bbsId=BBSMSTR_1069&pageIndex=1&pageUnit=10&searchtitle=title&searchcont=&searchkey=&searchwriter=&searchdept=&searchWrd=%eb%ac%b4%ec%9d%b8+%ec%b9%b4%eb%a9%94%eb%9d%bc&ctgryLrcls=&ctgryMdcls=&ctgrySmcls=&ntcStartDt=&ntcEndDt=&orgId=&mn=NKFS_06_09_01&component=
+
+	-- 119 안전센터 현황 --		|fire_safe_geo.csv		|구글지도API활용
+https://www.data.go.kr/data/15065056/fileData.do?recommendDataYn=Y
+
+	-- 시도 단위 소방서 현황 --	|fire_station_geo.csv		|구글지도API활용
+https://www.data.go.kr/data/15048243/fileData.do
+
+	-- 산불 발생 이력 --	API활용	|산불발생위치.csv
+https://www.safemap.go.kr/opna/data/dataView.do
