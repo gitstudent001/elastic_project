@@ -39,7 +39,7 @@ PUT /real_mountain_fire
         "type": "keyword"
       },
       "지번주소": {
-        "type": "text"
+        "type": "keyword"
       },
       "피해금액": {
         "type": "double"
@@ -55,6 +55,9 @@ PUT /real_mountain_fire
       },
       "피해면적": {
         "type": "double"
+      },
+      "시/도명": {
+        "type": "keyword"
       }
     }
   }
