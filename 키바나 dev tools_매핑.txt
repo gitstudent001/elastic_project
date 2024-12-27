@@ -1,0 +1,64 @@
+	-- 산림 지형 폴리곤 --
+PUT _index_template/mountain_fin_template
+{
+  "index_patterns": ["mountain_fin_*"],
+  "template": {
+    "settings": {
+      "number_of_shards": 1,
+      "number_of_replicas": 1
+    },
+    "mappings": {
+      "properties": {
+        "FIFTH_FRTP": {
+          "type": "keyword"
+        },
+        "Shape_Leng": {
+          "type": "double"
+        },
+        "Shape_Area": {
+          "type": "double"
+        },
+        "geometry": {
+          "type": "geo_shape"
+        }
+      }
+    }
+  },
+  "priority": 100
+}
+
+	-- 산림지형 발생 산불 위치 --
+PUT /real_mountain_fire
+{
+  "mappings": {
+    "properties": {
+      "location": {
+        "type": "geo_point"
+      },
+      "FIFTH_FRTP": {
+        "type": "keyword"
+      },
+      "지번주소": {
+        "type": "keyword"
+      },
+      "피해금액": {
+        "type": "double"
+      },
+      "사유": {
+        "type": "text"
+      },
+      "진화시간": {
+        "type": "integer"
+      },
+      "발생시각": {
+        "type": "date"
+      },
+      "피해면적": {
+        "type": "double"
+      },
+      "시/도명": {
+        "type": "keyword"
+      }
+    }
+  }
+}
