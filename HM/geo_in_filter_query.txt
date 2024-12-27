@@ -1,0 +1,2185 @@
+POST _reindex
+{
+  "source": {
+    "index": "real_mountain_fire",
+    "query": {
+      "bool": {
+        "should": [
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5103818,
+                "lon": 127.066797
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.529455,
+                "lon": 127.1250754
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.6334146,
+                "lon": 127.0375183
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5575223,
+                "lon": 126.8559611
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.4738337,
+                "lon": 126.9525326
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5448313,
+                "lon": 127.0828431
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5031884,
+                "lon": 126.858851
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.4642871,
+                "lon": 126.8980264
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.6382518,
+                "lon": 127.0710726
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.6632683,
+                "lon": 127.0330156
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5640224,
+                "lon": 127.0668375
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5130877,
+                "lon": 126.9311525
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5493546,
+                "lon": 126.933186
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5732213,
+                "lon": 126.9360838
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.4985959,
+                "lon": 126.9919184
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5540548,
+                "lon": 127.0396397
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.6024354,
+                "lon": 127.031799
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5018414,
+                "lon": 127.1494222
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5302246,
+                "lon": 126.8722418
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5178903,
+                "lon": 126.9035759
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5310939,
+                "lon": 126.9682409
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.6287323,
+                "lon": 126.92009
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5757032,
+                "lon": 126.9885802
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.6152055,
+                "lon": 127.0949931
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5643739,
+                "lon": 127.0152873
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.0896096,
+                "lon": 128.856755
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.2439972,
+                "lon": 129.0926766
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.3247171,
+                "lon": 129.1799406
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.1631708,
+                "lon": 129.1072203
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.1839901,
+                "lon": 129.1057213
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.1580831,
+                "lon": 129.0646224
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.2406378,
+                "lon": 129.0122022
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.1745485,
+                "lon": 128.978788
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.0903028,
+                "lon": 128.9735255
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.1070254,
+                "lon": 129.0367607
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.082095,
+                "lon": 129.0769394
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.1594801,
+                "lon": 129.1435732
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.9398209,
+                "lon": 128.5657421
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.85547,
+                "lon": 128.4677616
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.8310598,
+                "lon": 128.5347216
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.6826929,
+                "lon": 128.4454146
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.8759309,
+                "lon": 128.6251939
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.8776343,
+                "lon": 128.5925563
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.8816503,
+                "lon": 128.5542816
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.8255924,
+                "lon": 128.6443895
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.862301,
+                "lon": 128.5752872
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.712717,
+                "lon": 126.4582528
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5919241,
+                "lon": 126.6704531
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5370582,
+                "lon": 126.7353061
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.4081186,
+                "lon": 126.6932845
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.4487872,
+                "lon": 126.7164734
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.4484183,
+                "lon": 126.6690204
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5203259,
+                "lon": 126.7221446
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.546771,
+                "lon": 126.6773363
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.3672883,
+                "lon": 126.6516002
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.4888058,
+                "lon": 126.4122275
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.4702255,
+                "lon": 126.6224268
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.1861234,
+                "lon": 126.7965696
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.1106008,
+                "lon": 126.8783716
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.1513181,
+                "lon": 126.916761
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.1865459,
+                "lon": 126.9122275
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.1565062,
+                "lon": 126.8764472
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.3391505,
+                "lon": 127.4375941
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.3478941,
+                "lon": 127.3712018
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.3724807,
+                "lon": 127.4290355
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.3773616,
+                "lon": 127.3843146
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.309264,
+                "lon": 127.372401
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.5473999,
+                "lon": 129.3354351
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.4332957,
+                "lon": 129.3066122
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.4823984,
+                "lon": 129.4126425
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.606803,
+                "lon": 129.3702809
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.5450643,
+                "lon": 129.1365729
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.5630933,
+                "lon": 129.2991428
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.5062351,
+                "lon": 127.2742638
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.6046995,
+                "lon": 127.2888744
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.2973973,
+                "lon": 126.9958487
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.2545109,
+                "lon": 127.0364246
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.4223413,
+                "lon": 127.1586809
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.3860514,
+                "lon": 127.1193949
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.4937163,
+                "lon": 126.7778801
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.3958772,
+                "lon": 126.9606294
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.3216228,
+                "lon": 126.8333289
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.232061,
+                "lon": 127.1898362
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.2802706,
+                "lon": 127.10474
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.9904729,
+                "lon": 127.1127544
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.0847081,
+                "lon": 127.0515305
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.4485929,
+                "lon": 126.8851618
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.3493398,
+                "lon": 126.7397224
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.3524787,
+                "lon": 126.9271468
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.1310169,
+                "lon": 126.9204065
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.2819225,
+                "lon": 127.4316627
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.6415708,
+                "lon": 126.7085655
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.3854587,
+                "lon": 127.2995008
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.0004582,
+                "lon": 127.2561791
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5398466,
+                "lon": 127.2203165
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.3440051,
+                "lon": 126.9747966
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.1752082,
+                "lon": 127.0537429
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.291785,
+                "lon": 127.6258427
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5003572,
+                "lon": 127.5072318
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.4285534,
+                "lon": 126.9904633
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.8236236,
+                "lon": 127.5167102
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.6550328,
+                "lon": 126.8331518
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.5982974,
+                "lon": 127.1277848
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.6432745,
+                "lon": 127.2321811
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.892066,
+                "lon": 127.0477107
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.7959559,
+                "lon": 126.9892096
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 38.0484138,
+                "lon": 127.0688304
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.7551574,
+                "lon": 127.0699946
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.6632711,
+                "lon": 126.7696097
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.8476046,
+                "lon": 126.7896719
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.8912534,
+                "lon": 127.2026403
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.7571325,
+                "lon": 128.8727178
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 38.3768321,
+                "lon": 128.4736388
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.52455,
+                "lon": 129.118593
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.4467381,
+                "lon": 129.1709062
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 38.2037532,
+                "lon": 128.5601273
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 38.0989498,
+                "lon": 127.9941002
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 38.0675091,
+                "lon": 128.6224161
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.1853749,
+                "lon": 128.4585801
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.327007,
+                "lon": 127.9978986
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 38.0613774,
+                "lon": 128.1684755
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.3794855,
+                "lon": 128.6716889
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 38.1857168,
+                "lon": 127.3236302
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.8891922,
+                "lon": 127.7431697
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.1371815,
+                "lon": 129.0011426
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.3780487,
+                "lon": 128.3894951
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.6915754,
+                "lon": 127.9024725
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 38.0980947,
+                "lon": 127.7134734
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.485544,
+                "lon": 127.9740328
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.6207461,
+                "lon": 127.4948136
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.6269947,
+                "lon": 127.437116
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.0031607,
+                "lon": 127.9207534
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 37.1606746,
+                "lon": 128.2127697
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.4771291,
+                "lon": 127.7220888
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.3071523,
+                "lon": 127.5747833
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.1656518,
+                "lon": 127.7891967
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.7877508,
+                "lon": 127.5837837
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.8725027,
+                "lon": 127.441093
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.807507,
+                "lon": 127.8015184
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.9894151,
+                "lon": 127.5953374
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.988953,
+                "lon": 128.3566845
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.2742233,
+                "lon": 127.2334978
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.4593949,
+                "lon": 127.1079385
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.099925,
+                "lon": 127.480209
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.1780839,
+                "lon": 127.1004151
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.8857656,
+                "lon": 126.6178842
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.3333148,
+                "lon": 126.608325
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.2749502,
+                "lon": 126.8822541
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.7733243,
+                "lon": 126.4451849
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.0134973,
+                "lon": 126.6829266
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.7860413,
+                "lon": 127.0257382
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.6866027,
+                "lon": 126.8018306
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.7998265,
+                "lon": 127.1649735
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.8626391,
+                "lon": 127.1161567
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.4511762,
+                "lon": 126.7922524
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.7579061,
+                "lon": 126.2861455
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.5852222,
+                "lon": 126.6956813
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.7990553,
+                "lon": 127.1164744
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.842221,
+                "lon": 127.136479
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.9626618,
+                "lon": 126.7509233
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.9622038,
+                "lon": 127.005141
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.5899028,
+                "lon": 126.8601521
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.4367792,
+                "lon": 127.4167374
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.7988021,
+                "lon": 126.8700867
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.9207118,
+                "lon": 127.0968502
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.7989317,
+                "lon": 127.4353753
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.0027776,
+                "lon": 127.6549529
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.7323076,
+                "lon": 127.5896211
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.6106421,
+                "lon": 127.2891148
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.3721734,
+                "lon": 127.1337458
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.4328162,
+                "lon": 126.6879103
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.7297635,
+                "lon": 126.7119841
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.8098706,
+                "lon": 126.4302501
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.7598998,
+                "lon": 127.665184
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.9867276,
+                "lon": 127.5040137
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.0277395,
+                "lon": 126.7098869
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.9400027,
+                "lon": 127.6976551
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.3181825,
+                "lon": 126.9735758
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.2771957,
+                "lon": 127.2893488
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.2023109,
+                "lon": 127.4700227
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.5812809,
+                "lon": 127.2560058
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.8384489,
+                "lon": 127.3153987
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.0505588,
+                "lon": 126.9715449
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.6885058,
+                "lon": 126.9155035
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.6432386,
+                "lon": 126.7804306
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.5662483,
+                "lon": 126.6078363
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.7668056,
+                "lon": 126.4392366
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.994905,
+                "lon": 126.4629161
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.0603585,
+                "lon": 126.5393103
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.2627755,
+                "lon": 126.5092845
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.320638,
+                "lon": 126.7999486
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.3385447,
+                "lon": 126.7290599
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.4722355,
+                "lon": 126.24674
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.8207261,
+                "lon": 126.0890247
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.8383559,
+                "lon": 128.7696623
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.8441721,
+                "lon": 129.2282122
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.723747,
+                "lon": 128.2688848
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.1101023,
+                "lon": 128.3762599
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.1068142,
+                "lon": 128.1227278
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.6102878,
+                "lon": 128.2097728
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.8921656,
+                "lon": 128.7151613
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.4156486,
+                "lon": 128.1593222
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.9341208,
+                "lon": 128.3047972
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.5610389,
+                "lon": 128.7373978
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.4167134,
+                "lon": 129.3710654
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.7917109,
+                "lon": 128.6330707
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.9777486,
+                "lon": 128.9580925
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.6480301,
+                "lon": 128.4634092
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.9935068,
+                "lon": 129.3946218
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.3099901,
+                "lon": 128.5989256
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.6483008,
+                "lon": 128.7632782
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.4219386,
+                "lon": 129.058949
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.9897132,
+                "lon": 128.3873311
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.9934702,
+                "lon": 129.4186197
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 36.0425236,
+                "lon": 129.3660904
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.8960924,
+                "lon": 128.6862977
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.6776387,
+                "lon": 127.9231687
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.980939,
+                "lon": 128.3307918
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.2287445,
+                "lon": 128.9011476
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.2472356,
+                "lon": 128.7624228
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.8294336,
+                "lon": 127.8928522
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.4999805,
+                "lon": 128.7586802
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.933235,
+                "lon": 128.0797985
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.4151147,
+                "lon": 127.8834709
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.3341748,
+                "lon": 129.0104419
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.3194987,
+                "lon": 128.2482458
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.1804688,
+                "lon": 128.1185428
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.5506692,
+                "lon": 128.4791133
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.8837053,
+                "lon": 128.4191832
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 34.9780208,
+                "lon": 127.7956325
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.2858704,
+                "lon": 128.4000632
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.5237047,
+                "lon": 127.7424295
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.5731111,
+                "lon": 128.1483769
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 33.4909672,
+                "lon": 126.5366596
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 33.2496809,
+                "lon": 126.513821
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 33.4025856,
+                "lon": 126.2700909
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 33.4601969,
+                "lon": 126.9098657
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.1981955,
+                "lon": 128.574855
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.2275157,
+                "lon": 128.6857401
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.2584736,
+                "lon": 128.6270745
+              }
+            }
+          },
+          {
+            "geo_distance": {
+              "distance": "10km",
+              "location": {
+                "lat": 35.1284577,
+                "lon": 128.7398399
+              }
+            }
+          }
+        ],
+        "minimum_should_match": 1
+      }
+    }
+  },
+  "dest": {
+    "index": "filtered_fire_data"
+  }
+}
